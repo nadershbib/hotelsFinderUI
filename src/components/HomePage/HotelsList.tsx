@@ -93,7 +93,7 @@ export const HotelsList = () => {
         <table className="table table-hover">
             <thead className="thead-dark">
                     <tr className="text-center">
-                       <th scope="col">Restaurant</th>
+                       <th scope="col">Hotel</th>
                        <th scope="col">Location</th>
                        <th scope="col">Price Range</th>
                        <th scope="col">Ratings</th>
