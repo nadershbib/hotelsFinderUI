@@ -1,5 +1,5 @@
 import { DefaultRootState } from 'react-redux'
-import { IHOTEL, IHOTELS } from '../../interfaces/APPINTERFACES'
+import { IHOTEL, IHOTELS } from '../../interfaces/model'
 import types from './hotelTypes'
 
 const {ADD_HOTEL,GET_HOTELS} = types

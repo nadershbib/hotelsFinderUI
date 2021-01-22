@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import HotelFinder from "../../api/HotelFinder";
-import { IREVIEW, IUSEPARAMS } from "../../interfaces/APPINTERFACES";
+import { IREVIEW, IUSEPARAMS } from "../../interfaces/model";
 import { StarRatings } from "../../utils/StarRatings";
 import "./ReviewsCarousel.css";
 

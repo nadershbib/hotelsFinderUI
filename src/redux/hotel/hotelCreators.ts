@@ -1,5 +1,5 @@
 import types from './hotelTypes'
-import {IHOTEL, IHOTELS} from '../../interfaces/APPINTERFACES'
+import {IHOTEL, IHOTELS} from '../../interfaces/model'
 import HotelFinder from '../../api/HotelFinder';
 
 

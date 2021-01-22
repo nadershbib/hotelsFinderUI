@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useHistory, useParams } from 'react-router-dom';
 import { resolveModuleName } from 'typescript';
 import HotelFinder from '../../api/HotelFinder';
-import { IUSEPARAMS } from '../../interfaces/APPINTERFACES';
+import { IUSEPARAMS } from '../../interfaces/model';
 import { objBuilder } from '../../utils/functionsHelper';
 
 

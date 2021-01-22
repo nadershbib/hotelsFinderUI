@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ReviewsHeader from './ReviewsHeader'
 import ReviewsCarousel from './ReviewsCarousel'
 import { useHistory, useParams } from 'react-router-dom';
-import { IUSEPARAMS } from '../../interfaces/APPINTERFACES';
+import { IUSEPARAMS } from '../../interfaces/model';
 import HotelFinder from '../../api/HotelFinder';
 import { objReviewBuilder } from '../../utils/functionsHelper';
 export default function ReviewsHotel() {

@@ -4,7 +4,7 @@ import  './HotelsList.css'
 import HotelFinder from '../../api/HotelFinder'
 import { DefaultRootState, useDispatch, useSelector } from 'react-redux'
 import {getHotels} from '../../redux/hotel/hotelCreators'
-import { IHOTELS } from '../../interfaces/APPINTERFACES'
+import { IHOTELS } from '../../interfaces/model'
 import { useHistory } from 'react-router-dom'
 import { StarRatings } from '../../utils/StarRatings'
 

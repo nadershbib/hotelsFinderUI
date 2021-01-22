@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import UpdateHotel from '../components/UpdatePage/UpdateHotel';
-import { IUSEPARAMS } from '../interfaces/APPINTERFACES';
+import { IUSEPARAMS } from '../interfaces/model';
 
 export const UpdatePage = () => {
 
