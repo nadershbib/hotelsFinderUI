@@ -96,7 +96,7 @@ export const HotelsList = () => {
                     <td>{hotel.name}</td>
                     <td>{hotel.location}</td>
                     <td>{"$".repeat(hotel.price_range)}</td>
-                    <td>{reviewStars(hotel.avrg_rating)}</td>
+                    <td className="d-flex justify-content-center">{reviewStars(hotel.avrg_rating)} {`(${hotel.count})`}</td>
                     <td>
                       <button
                         onClick={(e) => handleUpdate(e, hotel.id)}
