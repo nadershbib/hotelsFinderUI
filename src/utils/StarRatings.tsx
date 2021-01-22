@@ -1,35 +1,27 @@
-import { FunctionComponent } from 'react';
+import { FunctionComponent } from "react";
 
-export  const StarRatings: FunctionComponent<{ rating: number }> = props => {
- 
+interface Props {
+  rating: number;
+}
+export const StarRatings: FunctionComponent<Props> = ({ rating }: Props) => {
+  let starArray: React.ReactNode[] = [];
 
-    let starArray = [];
-
-    for(let i = 1;i<=5; i++){
-        if(i<=props.rating){
-             starArray.push(<i className="fas fa-star text-warning"></i>);
-        }
-
-        else if (i<=Math.ceil(props.rating) && !Number.isInteger(props.rating)){
-           starArray.push(<i className="fas fa-star-half-alt text-warning"></i>)
-        }
-
-        else if (props.rating<=i){
-            starArray.push(<i className="far fa-star text-warning"></i>)
-        }
+  const star: string[] = [];
+  for (let i = 1; i <= 5; i++) {
+    if (i <= rating) {
+      star.push(" fas");
+    } else if (i <= Math.ceil(rating) && !Number.isInteger(rating)) {
+      star.push("-half-alt fas");
+    } else if (rating <= i) {
+      star.push(" far");
     }
+  }
 
-
-return (
-   <div>
-
-    {starArray}
-
-   </div>
-
-
-)
-
-
-
+  return (
+    <div>
+      {star.map((string) => (
+        <i className={`text-warning fa-star${string}`} />
+      ))}
+    </div>
+  );
 };
