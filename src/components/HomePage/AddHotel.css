@@ -1,0 +1,16 @@
+@media(max-width:576px){
+
+ .col-sm-12{
+     margin: .75rem 0 !important;
+ }
+
+ .btn{
+     width: 100%;
+ }
+
+}
+
+
+select,select option{
+   cursor: pointer !important;
+}
