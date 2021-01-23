@@ -10,7 +10,7 @@ import { StarRatings } from "../../utils/StarRatings";
 import Spinner from "../../utils/Spinner";
 
 export const HotelsList = () => {
-  const [loader, setLoader] = useState(false);
+  const [loader, setLoader] = useState<boolean>(false);
 
   let dispatch = useDispatch();
 
