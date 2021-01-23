@@ -1,6 +1,7 @@
 
 td{
     vertical-align: baseline !important;
+    border-top: none !important;
 }
 
 tr{
