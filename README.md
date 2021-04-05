@@ -1,4 +1,4 @@
-<h1>Hotel Finder</h1>
+<h1><a href="https://hotels-finder-fe.herokuapp.com/">Hotel Finder</a></h1>
 
 
 <h1>Overview</h1>
