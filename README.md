@@ -1,6 +1,7 @@
 <h1><a href="https://hotels-finder-fe.herokuapp.com/">Hotel Finder</a></h1>
 
-
+<img src="./Hotel Finder.png" />
+<img src="./reviewHotel.png" />
 <h1>Overview</h1>
 <p>This full stack application is created with the aim of letting users to enter different Hotels names and to be able to add reviews and rate them.
    Everything is being stored in a SQL database.
